@@ -1,0 +1,101 @@
+<!doctype html>
+<html>
+    <head>
+        <title>IT PROD</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="javascript/test.js"></script>
+    </head>
+    <body>
+        <div class="head">
+            <nav id="nav">
+                <img src="images/logo.png">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="#product">PRODUCT</a></li>
+                    <li><a href="#footer">ABOUT</a></li>
+                    <li><a href="#footer">CONTACT</a></li>
+                </ul>
+                <a href="" id="butt">log in/register</a>
+            </nav>
+        </div>
+        <div class="main">
+            <img id="im" src="images/img.jpg"/>
+        </div>
+        <div id="product">
+            <div class="title">
+                <h2>PRODUCT</h2>
+            </div>
+            <div class="box">
+                <div class="card">
+                    <h5>PC</h5>
+                    <img class="img" src="images/img1.png">
+                    <p>
+                        Écran 14" HD - Processeur: Intel Celeron N4020
+                        (1,10 GHz up to 2.80 GHz , 4Mo de mémoire cache, Dual-Core)
+                        - Système d'exploitation: FreeDos - Mémoire RAM: 4 Go DDR4-2400
+                        - Disque Dur: 1To HDD - Carte Graphique: Intel UHD Graphics 600 avec Wi-Fi,
+                        Bluetooth,1x USB 2.0, 2x USB 3.1 Gen 1, 1x HDMI 1.4b,
+                        1x prise combo casque/micro (3,5 mm) et lecteur de carte
+                        - Couleur: Gris - Garantie: 1 an
+                    </p>
+                </div>
+                <div class="card">
+                    <h5>IPAD</h5>
+                    <img class="img" src="images/img2.png">
+                    <p>
+                        Écran 10.2" LCD Retina IPS (1620x2160 Pixels)
+                        - Processeur: Apple A13 Bionic - Système d'exploitation: iPadOS 
+                        - Stockage: 64 Go - Appareil Photo Arrière: 8 MP, 
+                        Appareil Photo avant: 12 MP, avec Wi‑Fi, 
+                        Bluetooth 4.2 - Batterie: Lithium Polymère 32.4 Wh 
+                        - Capteur: Empreinte digitale - Dimensions: 250,6 x 174,1 x 7,5 mm 
+                        - Poids: 487 g - Couleur: Gris Sidéral - Garantie: 1 an
+                    </p>
+                </div>
+                <div class="card">
+                    <h5>GRAPHIC PAD</h5>
+                    <img class="img" src="images/img3.png">
+                    <p>
+                        Écran: 13.3" FHD (1920 x 1080) - Surface active: 294 x 166 mm 
+                        - Résolution du stylet: 2540 lpi - Interface: USB/HDMI -
+                         Rapport de contraste: 1000:1 - Luminosité: 200 cd/m² -
+                          Type de stylet: Stylet Wacom One, sensible à la pression,
+                           sans fil et sans pile - Niveaux de pression du stylet: 4096 
+                           - Inclinaison: 60° - Compatibilité PC: Windows 7 
+                           et Plus Compatibilité Mac: OS X 10.13 et Plus - 
+                           Dimensions: 225 x 357 x 14.6 mm - Garantie: 1 an
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="footer">
+            <h4>about</h4>
+            <p id="text">Find the best choice of products with the lowest prices at IT PROD,</br>
+                an online sales site with express delivery throughout Tunisia</br>
+                You will find the cheapest prices in Tunisia at IT PROD,</br>
+                your number 1 online store for bargains. Look no further,</br>
+                at IT PROD a wide selection of quality products awaits you.</br>
+            </p>
+            <h4>contact</h4>
+            <div class="contact">
+                <form action="" method="" name="f">
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name.."></br>
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name.."></br>
+                    <label for="city">city</label></br>
+                    <select id="city" name="city">
+                        <option value="tunis">tunis</option>
+                        <option value="ben arous">ben arous</option>
+                        <option value="nabeul">nabeul</option>
+                    </select></br>
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea></br>
+                    <input type="submit" onclick="test()" value="Submit">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

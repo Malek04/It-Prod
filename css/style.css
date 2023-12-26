@@ -1,0 +1,188 @@
+.head{
+    height:100%;
+    width:100%;
+    background-color:#011627;
+}
+
+
+#nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left:50px;
+    margin-right:50px;
+}
+
+
+#nav ul li{
+    font-size: 24px;
+    padding:20px 20px;
+    list-style-type: none;
+    display: inline-block;
+}
+
+
+#nav ul li a{
+    color:white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+
+#nav ul li a:hover{
+    color:#e71d36;
+}
+
+
+#butt{
+    border-style: solid;
+    border-color: #e71d36;
+    border-width: 1px;
+    color:white;
+    text-decoration: none;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bolder;
+    padding:5px 5px 5px 5px;
+}
+
+
+.main{
+    height:590px;
+    width:100%;
+    background-color: #e71d36;
+    margin-top: 5px;
+}
+
+
+#im{
+    height:600px;
+    width:100%;
+}
+
+
+#section{
+    height:300px;
+    width:100%;
+    background-color:#011627;
+}
+
+
+#product{
+	background:#011627;
+	width: 100%;
+	padding: 50px 0px;
+}
+
+
+.title h2{
+	color:#e71d36;
+	font-size: 75px;
+	width: 1130px;
+	margin: 30px auto;
+	text-align: center;
+}
+
+
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 400px;
+}
+
+
+.card{
+	height: 500px;
+	width: 335px;
+	padding: 20px;
+	background: #191919;
+	border-radius: 20px;
+	margin: 15px;
+	position: relative;
+	overflow: hidden;
+	text-align: center;
+}
+
+
+h5{
+	color: white;
+	font-size: 23px;
+	margin-bottom: 15px;
+}
+
+
+.pra p{
+	color: #fcfc;
+	font-size: 16px;
+	line-height: 27px;
+	margin-bottom: 25px;
+}
+
+
+.img{
+    height:250px;
+    width: 250px;
+}
+
+
+p{
+    color: aliceblue;
+}
+
+
+h4{
+    color: aliceblue;
+    font-size: 50px;
+	margin-bottom:15px;
+    text-align: center;
+
+}
+
+
+#footer{
+    padding-top:20px;
+    height:500px;
+    width:100%;
+    background-color:#011627;
+}
+
+
+#text{
+    text-align: center;
+}
+
+
+input[type=text], select, textarea {
+    width: 400px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+
+input[type=submit] {
+    background-color:#011627;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+
+input[type=submit]:hover {
+    background-color:#e71d36;
+}
+  
+.contact {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding-left: 35%;
+    padding-right: 35%;
+    padding-top:10px;
+}
